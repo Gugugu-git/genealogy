@@ -1,0 +1,1099 @@
+{
+  "metadata": {
+    "title": "泸县大堰胡氏宗谱",
+    "version": "1.0",
+    "lastUpdated": "2026-03-30",
+    "description": "泸县大堰胡氏宗谱信息管理系统数据文件"
+  },
+  "catalog": [
+    { "id": "catalog_1", "name": "目录", "module": "overview" },
+    { "id": "catalog_2", "name": "第一章　源流", "module": "origin" },
+    { "id": "catalog_3", "name": "第二章　谱序", "module": "preface" },
+    { "id": "catalog_4", "name": "第三章　凡例", "module": "rules" },
+    { "id": "catalog_5", "name": "第四章　家训族规", "module": "familyRules" },
+    { "id": "catalog_6", "name": "第五章　字辈", "module": "generation" },
+    { "id": "catalog_7", "name": "第六章　谱系", "module": "genealogy" },
+    { "id": "catalog_8", "name": "第七章　后跋", "module": "postscript" }
+  ],
+  "origin": {
+    "content": "暂无"
+  },
+  "preface": {
+    "content": "盖闻水有源，故其流不穷；木有根，故其生不断。家之有谱，犹国之有史，所以纪世系、辨昭穆、别亲疏、承祖德也。吾族本支，虽非显达，然亲族敦睦，患难相扶。今枝繁叶茂，丁口日增，恐年深日久，辈分淆乱，长幼无序。故重修族谱，以定尊卑，明次序，垂示后人。愿我族人，敬宗收族，敦伦睦友，守礼崇义，绵延家声，是所厚望焉。",
+    "date": "时公元二〇二六年岁次丙午孟春吉旦。",
+    "author": "合族修谱人 谨识"
+  },
+  "rules": [
+    { "id": "rule_1", "number": "一", "content": "本谱以公讳继相为始祖，世代相承，依次序列，不乱尊卑。" },
+    { "id": "rule_2", "number": "二", "content": "谱中书名，男子书名讳，妇人书配，女子书适。" },
+    { "id": "rule_3", "number": "三", "content": "生卒年月、坟茔所在，有则书，无则阙，务求真实。" },
+    { "id": "rule_4", "number": "四", "content": "族中子弟，无论贵贱贤愚，一体入谱，以昭一体之义。" },
+    { "id": "rule_5", "number": "五", "content": "继嗣、迁徙、功名、善行，皆为备书，以励后人。" },
+    { "id": "rule_6", "number": "六", "content": "本谱纪年，近代统用公元，附干支，以明时序。" },
+    { "id": "rule_7", "number": "七", "content": "世系以五服为亲，高祖以下五世亲尽，为出服。" }
+  ],
+  "familyRules": {
+    "content": "暂无"
+  },
+  "generation": {
+    "poem": "自天承开继先贤\n清白传家世代延\n立意公平光斗宿\n存心正直昭乾元\n从今次第永依祖\n昌大余支定万年",
+    "characters": [
+      "自", "天", "承", "开", "继", "先", "贤",
+      "清", "白", "传", "家", "世", "代", "延",
+      "立", "意", "公", "平", "光", "斗", "宿",
+      "存", "心", "正", "直", "昭", "乾", "元",
+      "从", "今", "次", "第", "永", "依", "祖",
+      "昌", "大", "余", "支", "定", "万", "年"
+    ]
+  },
+  "genealogy": [
+    {
+      "id": "person_1",
+      "generation": 1,
+      "name": "继相",
+      "styleName": "",
+      "title": "始迁祖",
+      "birth": "生卒年不详",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "唐氏", "type": "配" }
+      ],
+      "children": [
+        { "id": "person_2", "gender": "male", "name": "先知" }
+      ],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_2",
+      "generation": 2,
+      "name": "先知",
+      "styleName": "",
+      "title": "继相长子",
+      "birth": "生卒年不详",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "杨氏", "type": "配" }
+      ],
+      "children": [
+        { "id": "person_3", "gender": "male", "name": "贤碧" },
+        { "id": "person_64", "gender": "male", "name": "贤相" },
+        { "id": "person_167", "gender": "male", "name": "贤书" },
+        { "id": "person_169", "gender": "male", "name": "贤培" },
+        { "id": "person_171", "gender": "male", "name": "贤海" },
+        { "id": "person_173", "gender": "male", "name": "贤鑫" },
+        { "id": "person_175", "gender": "male", "name": "贤文" }
+      ],
+      "daughters": [
+        { "id": "person_177", "gender": "female", "name": "贤英" }
+      ],
+      "notes": "贤字以上不可考，故归为先知一脉",
+      "protected": true
+    },
+    {
+      "id": "person_3",
+      "generation": 3,
+      "name": "贤碧",
+      "styleName": "",
+      "title": "先知长子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "刁治珍", "type": "配" }
+      ],
+      "children": [
+        { "id": "person_4", "gender": "male", "name": "清鑫" },
+        { "id": "person_41", "gender": "male", "name": "清金" },
+        { "id": "person_58", "gender": "male", "name": "正权" }
+      ],
+      "daughters": [
+        { "id": "person_61", "gender": "female", "name": "清芳" },
+        { "id": "person_62", "gender": "female", "name": "清莲" },
+        { "id": "person_63", "gender": "female", "name": "清良" }
+      ],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_4",
+      "generation": 4,
+      "name": "清鑫",
+      "styleName": "",
+      "title": "贤碧长子",
+      "birth": "生于己卯年丙子月丁亥日癸卯时（公元一九三九年十二月十六日）",
+      "death": "卒于壬申年壬寅月己卯日乙亥时（公元一九九二年三月四日），葬大堰",
+      "birthplace": "泸州里仁乡二甲地名仙鹅抱蛋草房屋基生长人士",
+      "burial": "大堰",
+      "spouse": [
+        { "name": "刘贤树", "type": "配", "birth": "生于辛巳年壬辰月甲申日甲子时（公元一九四一年四月六日）", "death": "卒于庚寅年戊子月辛亥日乙未时（公元二零一零年十二月二十七日），葬大堰", "birthplace": "泸州里仁乡二甲地名小冲子屋基生长人士" }
+      ],
+      "children": [
+        { "id": "person_5", "gender": "male", "name": "伯华" },
+        { "id": "person_9", "gender": "male", "name": "伯海" },
+        { "id": "person_14", "gender": "male", "name": "伯云" },
+        { "id": "person_19", "gender": "male", "name": "伯元" }
+      ],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_5",
+      "generation": 5,
+      "name": "伯华",
+      "styleName": "",
+      "title": "清鑫长子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "林有秀", "type": "配" }
+      ],
+      "children": [
+        { "id": "person_7", "gender": "male", "name": "耀文" }
+      ],
+      "daughters": [
+        { "id": "person_6", "gender": "female", "name": "（传）琳" }
+      ],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_6",
+      "generation": 6,
+      "name": "传书",
+      "styleName": "琳",
+      "title": "伯华长子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "适徐金超，顺江人士",
+      "protected": true
+    },
+    {
+      "id": "person_7",
+      "generation": 6,
+      "name": "耀文",
+      "styleName": "",
+      "title": "伯华次子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_9",
+      "generation": 5,
+      "name": "伯海",
+      "styleName": "",
+      "title": "清鑫次子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "徐朝莲", "type": "配" }
+      ],
+      "children": [
+        { "id": "person_10", "gender": "male", "name": "某某" },
+        { "id": "person_11", "gender": "male", "name": "传阳" }
+      ],
+      "daughters": [
+        { "id": "person_12", "gender": "female", "name": "传难" }
+      ],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_10",
+      "generation": 6,
+      "name": "传彬",
+      "styleName": "",
+      "title": "伯海长子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_11",
+      "generation": 6,
+      "name": "传难",
+      "styleName": "",
+      "title": "伯海次子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_12",
+      "generation": 6,
+      "name": "传阳",
+      "styleName": "",
+      "title": "伯海三子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_14",
+      "generation": 5,
+      "name": "伯云",
+      "styleName": "",
+      "title": "清鑫三子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "曾付群", "type": "配" }
+      ],
+      "children": [
+        { "id": "person_16", "gender": "male", "name": "传炜" }
+      ],
+      "daughters": [
+        { "id": "person_15", "gender": "female", "name": "传平" },
+        { "id": "person_17", "gender": "female", "name": "某某" }
+      ],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_15",
+      "generation": 6,
+      "name": "传平",
+      "styleName": "",
+      "title": "伯云长子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "适坝心头卢子强",
+      "protected": true
+    },
+    {
+      "id": "person_16",
+      "generation": 6,
+      "name": "某某",
+      "styleName": "",
+      "title": "伯云次子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_17",
+      "generation": 6,
+      "name": "传炜",
+      "styleName": "",
+      "title": "伯云三子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_19",
+      "generation": 5,
+      "name": "伯元",
+      "styleName": "",
+      "title": "清鑫四子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "刁显利", "type": "配" }
+      ],
+      "children": [
+        { "id": "person_21", "gender": "male", "name": "传湘" }
+      ],
+      "daughters": [
+        { "id": "person_20", "gender": "female", "name": "传月" }
+      ],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_20",
+      "generation": 6,
+      "name": "传月",
+      "styleName": "",
+      "title": "伯元长子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_21",
+      "generation": 6,
+      "name": "传湘",
+      "styleName": "",
+      "title": "伯元次子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_41",
+      "generation": 4,
+      "name": "清金",
+      "styleName": "",
+      "title": "贤碧次子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "刘善会", "type": "配" }
+      ],
+      "children": [
+        { "id": "person_42", "gender": "male", "name": "某某" },
+        { "id": "person_43", "gender": "male", "name": "伯全" },
+        { "id": "person_47", "gender": "male", "name": "伯成" }
+      ],
+      "daughters": [
+        { "id": "person_45", "gender": "female", "name": "某某，早夭" },
+        { "id": "person_46", "gender": "female", "name": "伯群" }
+      ],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_42",
+      "generation": 5,
+      "name": "某某",
+      "styleName": "",
+      "title": "清金长子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_43",
+      "generation": 5,
+      "name": "伯全",
+      "styleName": "",
+      "title": "清金次子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "艾中云", "type": "配" }
+      ],
+      "children": [
+        { "id": "person_44", "gender": "male", "name": "强" }
+      ],
+      "daughters": [
+        { "id": "person_45", "gender": "female", "name": "传敏" }
+      ],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_44",
+      "generation": 6,
+      "name": "强",
+      "styleName": "",
+      "title": "伯全长子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_45",
+      "generation": 6,
+      "name": "传敏",
+      "styleName": "",
+      "title": "伯全次子",
+      "birth": "生于乙酉年戊子月乙亥日丙子时（公元二零零五年十二月十七日）",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_46",
+      "generation": 5,
+      "name": "伯群",
+      "styleName": "",
+      "title": "清金三子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "适陈思全，奇峰人士",
+      "protected": true
+    },
+    {
+      "id": "person_47",
+      "generation": 5,
+      "name": "伯成",
+      "styleName": "",
+      "title": "清金四子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "邓家会", "type": "配" }
+      ],
+      "children": [
+        { "id": "person_48", "gender": "male", "name": "丁元" },
+        { "id": "person_49", "gender": "male", "name": "又中" },
+        { "id": "person_50", "gender": "male", "name": "传湧" }
+      ],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_48",
+      "generation": 6,
+      "name": "丁元",
+      "styleName": "",
+      "title": "伯成长子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_49",
+      "generation": 6,
+      "name": "又中",
+      "styleName": "",
+      "title": "伯成次子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_50",
+      "generation": 6,
+      "name": "传湧",
+      "styleName": "",
+      "title": "伯成三子",
+      "birth": "生于乙酉年丙戌月壬申日丙午时（公元二零零五年十月十五日）",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_58",
+      "generation": 4,
+      "name": "正权",
+      "styleName": "",
+      "title": "贤碧三子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "廖新有", "type": "配" },
+        { "name": "刘善会", "type": "继配" }
+      ],
+      "children": [],
+      "daughters": [],
+      "heirs": [
+        { "id": "person_59", "gender": "male", "name": "伯容" }
+      ],
+      "notes": "嗣子一",
+      "protected": true
+    },
+    {
+      "id": "person_59",
+      "generation": 5,
+      "name": "伯容",
+      "styleName": "",
+      "title": "正权长子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "适黄世荣，叙永人士",
+      "protected": true
+    },
+    {
+      "id": "person_61",
+      "generation": 4,
+      "name": "清芳",
+      "styleName": "",
+      "title": "贤碧四子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "刘公讳世炳", "type": "适" }
+      ],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_62",
+      "generation": 4,
+      "name": "清莲",
+      "styleName": "",
+      "title": "贤碧五子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "徐公讳义道", "type": "适" }
+      ],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_63",
+      "generation": 4,
+      "name": "清良",
+      "styleName": "",
+      "title": "贤碧六子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "邓公讳秀海", "type": "适" }
+      ],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_64",
+      "generation": 3,
+      "name": "贤相",
+      "styleName": "",
+      "title": "先知次子",
+      "birth": "生于民国三年甲寅岁古九月二十一酉时（一九一四年十一月八日）",
+      "death": "卒年不详，葬大堰",
+      "birthplace": "泸州凤仪乡四甲黄金堡屋基生长人士（今劳动村大堰屋基）",
+      "burial": "大堰",
+      "spouse": [
+        { "name": "葛新有", "type": "配" },
+        { "name": "傅氏", "type": "继配" }
+      ],
+      "children": [
+        { "id": "person_65", "gender": "male", "name": "清林" },
+        { "id": "person_69", "gender": "male", "name": "清廷" }
+      ],
+      "daughters": [
+        { "id": "person_74", "gender": "female", "name": "清莲" },
+        { "id": "person_75", "gender": "female", "name": "清润" },
+        { "id": "person_76", "gender": "female", "name": "清秀" },
+        { "id": "person_77", "gender": "female", "name": "清珍" },
+        { "id": "person_78", "gender": "female", "name": "清平" }
+      ],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_65",
+      "generation": 4,
+      "name": "清林",
+      "styleName": "炳林",
+      "title": "贤相长子",
+      "birth": "生于癸巳年壬戌月辛巳日甲午时（公元一九五三年十月二十四日）",
+      "death": "卒于庚子年己卯月丁未日庚子时（公元二零二零年三月五日），葬大堰",
+      "birthplace": "泸州奇峰区喻坪公社劳动大队九生产队大堰屋基生长人士（今劳动村大堰）",
+      "burial": "大堰",
+      "spouse": [
+        { "name": "杨宗群", "type": "配", "birth": "生丁酉年癸丑月己酉日甲子时（公元一九五八年二月一日）" }
+      ],
+      "children": [
+        { "id": "person_66", "gender": "male", "name": "伯钢" }
+      ],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_66",
+      "generation": 5,
+      "name": "伯钢",
+      "styleName": "焱",
+      "title": "清林长子",
+      "birth": "生于壬戌年戊申月辛巳日己丑时（公元一九八二年八月二十六日）",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "杨雪", "type": "配" }
+      ],
+      "children": [
+        { "id": "person_67", "gender": "male", "name": "恩泽" },
+        { "id": "person_68", "gender": "male", "name": "恩志" },
+        { "id": "person_69", "gender": "male", "name": "（杨）恩朔" }
+      ],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_67",
+      "generation": 6,
+      "name": "恩泽",
+      "styleName": "",
+      "title": "伯钢长子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_68",
+      "generation": 6,
+      "name": "恩志",
+      "styleName": "",
+      "title": "伯钢次子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_69",
+      "generation": 6,
+      "name": "（杨）恩朔",
+      "styleName": "",
+      "title": "伯钢三子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_70",
+      "generation": 4,
+      "name": "清廷",
+      "styleName": "炳廷",
+      "title": "贤相次子",
+      "birth": "生于丙申年庚子月丙寅日壬辰时（一九五六年十二月二十五日）",
+      "death": "",
+      "birthplace": "泸州奇峰区喻坪公社劳动大队九生产队大堰屋基生长人士（今劳动村大堰）",
+      "burial": "",
+      "spouse": [
+        { "name": "张四莲", "type": "配" }
+      ],
+      "children": [
+        { "id": "person_71", "gender": "male", "name": "伯健" },
+        { "id": "person_72", "gender": "male", "name": "伯彬" }
+      ],
+      "daughters": [
+        { "id": "person_73", "gender": "female", "name": "伯方" }
+      ],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_71",
+      "generation": 5,
+      "name": "伯健",
+      "styleName": "",
+      "title": "清廷长子",
+      "birth": "生于壬戌年壬寅月甲申日乙丑时（一九八二年三月二日）",
+      "death": "卒于次年",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "早夭",
+      "protected": true
+    },
+    {
+      "id": "person_72",
+      "generation": 5,
+      "name": "伯彬",
+      "styleName": "均",
+      "title": "清廷次子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "钟方艳", "type": "配" },
+        { "name": "邓利平", "type": "继配" }
+      ],
+      "children": [
+        { "id": "person_74", "gender": "male", "name": "奕", "note": "为方艳子" },
+        { "id": "person_75", "gender": "male", "name": "智豪", "note": "为利平子" }
+      ],
+      "daughters": [],
+      "notes": "长为方艳子，次为利平子",
+      "protected": true
+    },
+    {
+      "id": "person_74",
+      "generation": 6,
+      "name": "奕",
+      "styleName": "",
+      "title": "伯彬长子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_75",
+      "generation": 6,
+      "name": "智豪",
+      "styleName": "",
+      "title": "伯彬次子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_73",
+      "generation": 5,
+      "name": "伯方",
+      "styleName": "",
+      "title": "清廷三子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "适张清南，清狮人士",
+      "protected": true
+    },
+    {
+      "id": "person_76",
+      "generation": 4,
+      "name": "清秀",
+      "styleName": "",
+      "title": "贤相三女",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "刘常根，朱营坳人士", "type": "适" }
+      ],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_77",
+      "generation": 4,
+      "name": "清莲",
+      "styleName": "",
+      "title": "贤相长女",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "熊永川，玄滩人士", "type": "适" }
+      ],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_78",
+      "generation": 4,
+      "name": "清珍",
+      "styleName": "",
+      "title": "贤相四女",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "唐登贵，玄滩人士", "type": "适" }
+      ],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_79",
+      "generation": 4,
+      "name": "清平",
+      "styleName": "",
+      "title": "贤相五女",
+      "birth": "生于癸卯年丙辰月庚子日己卯时（公元一九六三年四月二十七日）",
+      "death": "",
+      "birthplace": "泸州奇峰区喻坪公社劳动大队九生产队大堰屋基生长人士（今劳动村大堰）",
+      "burial": "",
+      "spouse": [
+        { "name": "李熙能，涂场人士", "type": "适" }
+      ],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_80",
+      "generation": 4,
+      "name": "清润",
+      "styleName": "",
+      "title": "贤相次女",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "林上本，莲桥人士", "type": "适" }
+      ],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_167",
+      "generation": 3,
+      "name": "贤书",
+      "styleName": "",
+      "title": "先知三子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "罗氏", "type": "配" }
+      ],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_169",
+      "generation": 3,
+      "name": "贤培",
+      "styleName": "",
+      "title": "先知四子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "李氏", "type": "配" }
+      ],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_171",
+      "generation": 3,
+      "name": "贤海",
+      "styleName": "",
+      "title": "先知五子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_173",
+      "generation": 3,
+      "name": "贤鑫",
+      "styleName": "",
+      "title": "先知六子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_175",
+      "generation": 3,
+      "name": "贤文",
+      "styleName": "",
+      "title": "先知七子",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "陈氏泽英", "type": "配" }
+      ],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_177",
+      "generation": 3,
+      "name": "贤英",
+      "styleName": "",
+      "title": "先知女",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "李公讳熙诚", "type": "适" }
+      ],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    }
+  ],
+  "postscript": {
+    "content": "我族自开基以来，耕读传家，孝悌为本，虽无鼎食钟鸣之贵，常怀敦亲睦族之心。今谱牒告成，世系厘然，尊卑有别，长幼有序。非徒纪姓名、录生卒，实欲使后人知身之所自、脉之所承，念祖德之绵长，感宗功之悠远。愿后世子孙，观谱思本，循礼守义，勤俭持家，忠厚处世，上不负祖宗之贻谋，下不愧儿孙之表率。庶几宗风不坠，家道永昌，瓜瓞绵绵，兰桂腾芳，承先启后，世代流芳。",
+    "date": "时公元二〇二六年岁次丙午孟春吉旦。",
+    "author": "合族修谱人 谨跋。"
+  },
+  "backupHistory": [],
+  "changeLog": []
+}
