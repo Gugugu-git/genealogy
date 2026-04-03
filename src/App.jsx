@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HashRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import Overview from './components/Overview';
 import Genealogy from './components/Genealogy';
 import Generation from './components/Generation';
@@ -9,7 +9,7 @@ import DataManagement from './components/DataManagement';
 import GuideModal from './components/GuideModal';
 import './App.css';
 
-const { ipcRenderer } = window.require ? window.require('electron') : { ipcRenderer: null };
+const ipcRenderer = typeof window !== 'undefined' && window.require ? window.require('electron').ipcRenderer : null;
 
 function App() {
   const [data, setData] = useState(null);

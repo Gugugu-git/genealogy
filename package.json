@@ -2,14 +2,10 @@
   "name": "luxian-hu-genealogy",
   "version": "1.0.0",
   "description": "泸县大堰胡氏宗谱信息管理系统",
-  "main": "electron/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "electron": "electron .",
-    "electron:dev": "concurrently \"npm run dev\" \"wait-on http://localhost:5173 && electron .\"",
-    "electron:build": "npm run build && electron-builder"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -19,15 +15,5 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
     "vite": "^5.0.0"
-  },
-  "build": {
-    "appId": "com.luxianhu.genealogy",
-    "productName": "泸县大堰胡氏宗谱",
-    "directories": {
-      "output": "dist-electron"
-    },
-    "win": {
-      "target": "nsis"
-    }
   }
 }
