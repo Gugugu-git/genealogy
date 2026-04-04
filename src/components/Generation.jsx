@@ -8,10 +8,11 @@ function Generation({ data }) {
 
   const getPersonsByGenerationChar = (char) => {
     if (!data.genealogy) return [];
-    return data.genealogy.filter(person => 
-      person.name.includes(char) || 
-      (person.styleName && person.styleName.includes(char))
-    );
+    const charIndex = generationChars.indexOf(char);
+    if (charIndex === -1) return [];
+    const generation = charIndex - 3; // 第5个字（索引4）对应第1世，所以索引-3
+    if (generation < 1) return []; // 前4个字辈不可考
+    return data.genealogy.filter(person => person.generation === generation);
   };
 
   return (
