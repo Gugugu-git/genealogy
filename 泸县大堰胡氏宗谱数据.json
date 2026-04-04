@@ -414,8 +414,8 @@
         { "id": "person_47", "gender": "male", "name": "伯成" }
       ],
       "daughters": [
-        { "id": "person_45", "gender": "female", "name": "某某，早夭" },
-        { "id": "person_46", "gender": "female", "name": "伯群" }
+        { "id": "person_81", "gender": "female", "name": "某某，早夭" },
+        { "id": "person_82", "gender": "female", "name": "伯群" }
       ],
       "notes": "",
       "protected": true
@@ -488,22 +488,6 @@
       "children": [],
       "daughters": [],
       "notes": "",
-      "protected": true
-    },
-    {
-      "id": "person_46",
-      "generation": 5,
-      "name": "伯群",
-      "styleName": "",
-      "title": "清金三子",
-      "birth": "",
-      "death": "",
-      "birthplace": "",
-      "burial": "",
-      "spouse": [],
-      "children": [],
-      "daughters": [],
-      "notes": "适陈思全，奇峰人士",
       "protected": true
     },
     {
@@ -684,11 +668,11 @@
       ],
       "children": [
         { "id": "person_65", "gender": "male", "name": "清林" },
-        { "id": "person_69", "gender": "male", "name": "清廷" }
+        { "id": "person_70", "gender": "male", "name": "清廷" }
       ],
       "daughters": [
-        { "id": "person_74", "gender": "female", "name": "清莲" },
-        { "id": "person_75", "gender": "female", "name": "清润" },
+        { "id": "person_79", "gender": "female", "name": "清莲" },
+        { "id": "person_80", "gender": "female", "name": "清润" },
         { "id": "person_76", "gender": "female", "name": "清秀" },
         { "id": "person_77", "gender": "female", "name": "清珍" },
         { "id": "person_78", "gender": "female", "name": "清平" }
@@ -916,24 +900,6 @@
     {
       "id": "person_77",
       "generation": 4,
-      "name": "清莲",
-      "styleName": "",
-      "title": "贤相长女",
-      "birth": "",
-      "death": "",
-      "birthplace": "",
-      "burial": "",
-      "spouse": [
-        { "name": "熊永川，玄滩人士", "type": "适" }
-      ],
-      "children": [],
-      "daughters": [],
-      "notes": "",
-      "protected": true
-    },
-    {
-      "id": "person_78",
-      "generation": 4,
       "name": "清珍",
       "styleName": "",
       "title": "贤相四女",
@@ -950,7 +916,7 @@
       "protected": true
     },
     {
-      "id": "person_79",
+      "id": "person_78",
       "generation": 4,
       "name": "清平",
       "styleName": "",
@@ -961,6 +927,24 @@
       "burial": "",
       "spouse": [
         { "name": "李熙能，涂场人士", "type": "适" }
+      ],
+      "children": [],
+      "daughters": [],
+      "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_79",
+      "generation": 4,
+      "name": "清莲",
+      "styleName": "",
+      "title": "贤相长女",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [
+        { "name": "熊永川，玄滩人士", "type": "适" }
       ],
       "children": [],
       "daughters": [],
@@ -983,6 +967,38 @@
       "children": [],
       "daughters": [],
       "notes": "",
+      "protected": true
+    },
+    {
+      "id": "person_81",
+      "generation": 4,
+      "name": "某某",
+      "styleName": "",
+      "title": "清金长女",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "早夭",
+      "protected": true
+    },
+    {
+      "id": "person_82",
+      "generation": 5,
+      "name": "伯群",
+      "styleName": "",
+      "title": "清金三女",
+      "birth": "",
+      "death": "",
+      "birthplace": "",
+      "burial": "",
+      "spouse": [],
+      "children": [],
+      "daughters": [],
+      "notes": "适陈思全，奇峰人士",
       "protected": true
     },
     {
