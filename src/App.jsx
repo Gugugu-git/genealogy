@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, NavLink, Navigate } from 'react-router-dom';
 import Overview from './components/Overview';
 import Genealogy from './components/Genealogy';
 import Generation from './components/Generation';
@@ -7,6 +7,7 @@ import Rules from './components/Rules';
 import PrefacePostscript from './components/PrefacePostscript';
 import DataManagement from './components/DataManagement';
 import GuideModal from './components/GuideModal';
+import Login from './components/Login';
 import './App.css';
 
 const ipcRenderer = typeof window !== 'undefined' && window.require ? window.require('electron').ipcRenderer : null;
@@ -16,12 +17,18 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [showGuide, setShowGuide] = useState(false);
   const [changeLog, setChangeLog] = useState([]);
+  const [currentUser, setCurrentUser] = useState(null);
 
   useEffect(() => {
     loadData();
     const hasSeenGuide = localStorage.getItem('hasSeenGuide');
     if (!hasSeenGuide) {
       setShowGuide(true);
+    }
+    
+    const savedUser = localStorage.getItem('genealogyCurrentUser');
+    if (savedUser) {
+      setCurrentUser(JSON.parse(savedUser));
     }
   }, []);
 
@@ -92,6 +99,19 @@ function App() {
     localStorage.setItem('hasSeenGuide', 'true');
   };
 
+  const handleLogin = (user) => {
+    setCurrentUser(user);
+  };
+
+  const handleLogout = () => {
+    localStorage.removeItem('genealogyCurrentUser');
+    setCurrentUser(null);
+  };
+
+  if (!currentUser) {
+    return <Login onLogin={handleLogin} />;
+  }
+
   if (loading) {
     return (
       <div className="loading-container">
@@ -107,9 +127,20 @@ function App() {
         <header className="app-header">
           <div className="header-content">
             <h1>泸县大堰胡氏宗谱</h1>
-            <button className="guide-btn" onClick={() => setShowGuide(true)}>
-              操作指引
-            </button>
+            <div className="header-right">
+              <div className="user-info">
+                <span className="user-name">{currentUser.username}</span>
+                <span className={`user-role ${currentUser.role}`}>
+                  {currentUser.role === 'admin' ? '管理员' : '游客'}
+                </span>
+              </div>
+              <button className="guide-btn" onClick={() => setShowGuide(true)}>
+                操作指引
+              </button>
+              <button className="logout-btn" onClick={handleLogout}>
+                退出登录
+              </button>
+            </div>
           </div>
         </header>
 
@@ -142,7 +173,14 @@ function App() {
               <Route path="/generation" element={<Generation data={data} />} />
               <Route path="/rules" element={<Rules data={data} />} />
               <Route path="/preface" element={<PrefacePostscript data={data} setData={setData} saveData={saveData} addChangeLog={addChangeLog} />} />
-              <Route path="/data" element={<DataManagement data={data} setData={setData} saveData={saveData} changeLog={changeLog} addChangeLog={addChangeLog} />} />
+              <Route 
+                path="/data" 
+                element={
+                  currentUser.role === 'admin' 
+                    ? <DataManagement data={data} setData={setData} saveData={saveData} changeLog={changeLog} addChangeLog={addChangeLog} />
+                    : <Navigate to="/" replace />
+                } 
+              />
             </Routes>
           )}
         </main>
