@@ -160,9 +160,11 @@ function App() {
           <NavLink to="/preface" className={({ isActive }) => isActive ? 'active' : ''}>
             谱序后跋
           </NavLink>
-          <NavLink to="/data" className={({ isActive }) => isActive ? 'active' : ''}>
-            数据管理
-          </NavLink>
+          {currentUser.role === 'admin' && (
+            <NavLink to="/data" className={({ isActive }) => isActive ? 'active' : ''}>
+              数据管理
+            </NavLink>
+          )}
         </nav>
 
         <main className="app-main">
@@ -177,7 +179,7 @@ function App() {
                 path="/data" 
                 element={
                   currentUser.role === 'admin' 
-                    ? <DataManagement data={data} setData={setData} saveData={saveData} changeLog={changeLog} addChangeLog={addChangeLog} />
+                    ? <DataManagement data={data} setData={setData} saveData={saveData} changeLog={changeLog} addChangeLog={addChangeLog} currentUser={currentUser} />
                     : <Navigate to="/" replace />
                 } 
               />

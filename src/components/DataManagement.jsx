@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import UserManagement from './UserManagement';
 
 const { ipcRenderer } = window.require ? window.require('electron') : { ipcRenderer: null };
 
-function DataManagement({ data, setData, saveData, changeLog, addChangeLog }) {
+function DataManagement({ data, setData, saveData, changeLog, addChangeLog, currentUser }) {
   const [activeTab, setActiveTab] = useState('edit');
   const [backups, setBackups] = useState([]);
   const [showAddPerson, setShowAddPerson] = useState(false);
@@ -158,6 +159,12 @@ function DataManagement({ data, setData, saveData, changeLog, addChangeLog }) {
             onClick={() => setActiveTab('edit')}
           >
             ✏️ 人物编辑
+          </button>
+          <button
+            className={`btn ${activeTab === 'users' ? 'btn-primary' : 'btn-secondary'}`}
+            onClick={() => setActiveTab('users')}
+          >
+            👥 用户管理
           </button>
           <button
             className={`btn ${activeTab === 'backup' ? 'btn-primary' : 'btn-secondary'}`}
@@ -341,6 +348,10 @@ function DataManagement({ data, setData, saveData, changeLog, addChangeLog }) {
               </div>
             )}
           </div>
+        )}
+
+        {activeTab === 'users' && (
+          <UserManagement currentUser={currentUser} />
         )}
       </div>
 
