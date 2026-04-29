@@ -1,0 +1,4 @@
+project_id = "genealogy"
+
+[functions.verify-admin-key]
+verify_jwt = false
